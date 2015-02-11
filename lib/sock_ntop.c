@@ -1,3 +1,9 @@
+/*
+ * p71
+ * 书中只给出了部分代码示例
+ * 我自己编写了IPv6以及Unix域套接字的相关代码
+ * 可能有错误
+ */
 #include "unp.h"
 char * sock_ntop(const struct sockaddr *sa,socklen_t salen){
     char portstr[8];
