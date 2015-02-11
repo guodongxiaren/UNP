@@ -1,3 +1,7 @@
+/*
+ * p64
+ * 确定主机字节序的程序
+ */
 #include "unp.h"
 int main(int argc,char **argv){
     union{
